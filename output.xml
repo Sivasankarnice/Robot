@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.2 (Python 3.6.4 on win32)" generated="20180323 15:06:46.763">
+<suite id="s1" name="Training" source="C:\Users\sa\PycharmProjects\Training\Training.robot">
+<test id="s1-t1" name="Test title1">
+<kw name="Convert To Binary" library="BuiltIn">
+<doc>Converts the given item to a binary string.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<assign>
+<var>${x}</var>
+</assign>
+<msg timestamp="20180323 15:06:46.823" level="INFO">${x} = 1010</msg>
+<status status="PASS" starttime="20180323 15:06:46.823" endtime="20180323 15:06:46.823"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${x}</arg>
+</arguments>
+<msg timestamp="20180323 15:06:46.823" level="INFO">1010</msg>
+<status status="PASS" starttime="20180323 15:06:46.823" endtime="20180323 15:06:46.823"></status>
+</kw>
+<tags>
+<tag>t1</tag>
+</tags>
+<status status="PASS" starttime="20180323 15:06:46.823" endtime="20180323 15:06:46.823" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Test title2">
+<kw name="Convert To Octal" library="BuiltIn">
+<doc>Converts the given item to an octal string.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<assign>
+<var>${x}</var>
+</assign>
+<msg timestamp="20180323 15:06:46.823" level="INFO">${x} = 12</msg>
+<status status="PASS" starttime="20180323 15:06:46.823" endtime="20180323 15:06:46.823"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${x}</arg>
+</arguments>
+<msg timestamp="20180323 15:06:46.833" level="INFO">12</msg>
+<status status="PASS" starttime="20180323 15:06:46.833" endtime="20180323 15:06:46.833"></status>
+</kw>
+<doc>This is conversion to Octal</doc>
+<tags>
+<tag>d1</tag>
+</tags>
+<status status="PASS" starttime="20180323 15:06:46.823" endtime="20180323 15:06:46.833" critical="yes"></status>
+</test>
+<doc>Suite description</doc>
+<status status="PASS" starttime="20180323 15:06:46.773" endtime="20180323 15:06:46.833"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">d1</stat>
+<stat pass="1" fail="0">t1</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="Training">Training</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
